@@ -17,6 +17,10 @@ public class MathUtilLive {
         System.out.println("expected: 0! = 1: actual: " +MathUtil.getFactorial(0));
 
         //MathUtil.getFactorial(-5);//ném ngoại lệ r
+        // lần đầu tiên làm chuyện ấy chỉnh code xong đẩy lên lên git 10:02 12/13/2023
+        System.out.println("expected: 1! = 1: actual: " +MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6: actual: " +MathUtil.getFactorial(3));
+
         
         // kĩ thuật kiểm thử: ước lượng xem gái trị trả về là gì
         // hàm chạy thực tế là gì gọi là là actual
